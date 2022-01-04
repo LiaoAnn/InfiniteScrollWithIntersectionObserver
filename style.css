@@ -1,0 +1,19 @@
+body {
+    font-family: '微軟正黑體';
+}
+
+.card {
+    border-radius: .25em;
+    border: 1px solid black;
+    padding: .5em;
+    margin: 1em;
+    width: max-content;
+    opacity: 0;
+    transition: .15s;
+    transform: translateX(100px);
+}
+
+.card.show {
+    opacity: 1;
+    transform: translateX(0px);
+}
